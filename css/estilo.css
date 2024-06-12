@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(197, 221, 197);
+    font-family:Arial, Helvetica, sans-serif;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+div.podcast{
+    background-color: white;
+    margin-top: 50px;
+}
+#cocinando{
+    display: flex;
+}
+.marco{
+    border: 1px solid white;
+    border-radius: 360px;
+    background-color: rgb(146, 144, 144);
+}
+.flex{
+    display: flex;
+}
+.espacio{
+    display: flex;
+    justify-content: space-around;
+}
+div#nosotoros{
+    display: flex;
+    justify-content: end;
+}
+.titulo{
+    color: rgb(197, 221, 197) ;
+    border: 1px;
+    background-color: rgb(51, 50, 50);
+}
+.cuadro{
+    border: 1px solid;
+    padding: 10px;
+}
+button{
+    border: 0px;
+    background-color:rgb(197, 221, 197) ;
+    display: flex;
+    justify-content: end;
+}
+.redes{
+    display: flex;
+    justify-content: end;
+}
+#nombre,#email,#tel{
+    padding: 20px;
+    width: 200px;
+}
+.pag{
+    color: green;
+}
+.com{
+    display: flex;
+    justify-content: end;
+}
+#final{
+    display: flex;
+    justify-content: end;
+}
